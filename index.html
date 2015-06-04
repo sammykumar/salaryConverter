@@ -7,9 +7,11 @@
 		<div class="container" ng-controller="converter">
 			<h1>Salary converter</h1>
 			<div class="form-group">
-				<input type="number" class="form-control" placeholder="0" ng-model="yearly">
+				<label>Annual Salary</label>
+				<input type="number" class="form-control" placeholder="0" ng-model="yearly" ng-change="reCalculate()">
 				<br>
-				<p>If youre making <span>${{yearly}}, then your monthly gross is ${{monthly}}.</p>
+				<label>Monthly Salary</label>
+				<input type="number" class="form-control" placeholder="0" ng-model="monthly" disabled>
 			</div>
 			
 		</div>
