@@ -1,5 +1,7 @@
 # salaryConverter
 
+Live here: http://salarycalc.sammykumar.co/
+
 ## Why I Made This
 
 Right now I'm in the process of looking for a fulltime gig, so I've been sifting through job descriptions and salaries. I wanted to calculate the monthly, bi weekly, and weekly quickly, so I figured I'll make AND use Angular.js.
