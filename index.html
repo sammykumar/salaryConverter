@@ -1,4 +1,3 @@
-<!doctype html>
 <html ng-app="salaryApp">
 	<head>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +26,7 @@
 			<h1>Salary converter</h1>
 			<div class="form-group">
 				<label>Annual Salary</label>
-				<input type="number" class="form-control" placeholder="0" ng-model="yearly" ng-change="reCalculate()" >
+				<input type="text" class="form-control" placeholder="0" ng-model="yearly" ng-change="parseInput()" >
 				<br>
 				
 				<!-- Radio Buttons -->
